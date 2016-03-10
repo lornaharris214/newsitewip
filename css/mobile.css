@@ -1,0 +1,195 @@
+@media all and (max-width: 780px) {
+    
+    body {
+        color: white;
+        background-color: white;
+    }
+ 
+
+/* Header */
+    
+    header {
+        width: 100%;
+        height: 200px;
+        background-color: black;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+        z-index: 1;
+        line-height: .2px;
+        margin-top: none;
+    }
+    
+    .aboutportfolio {
+        
+        height: 250px;
+    }
+    
+    .heading {
+        font-size: 4em;
+        text-shadow: .5px .5px 5px black;
+        font-family: 'Libre Baskerville', serif;
+    }
+    
+    .subtitle {
+        margin-top: -15px;
+        font-size: 1em;
+        text-shadow: .5px .5px 5px black;
+        font-family: 'Libre Baskerville', serif;
+    }
+
+    aside {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        background-image: url(../img/self.png);
+        background-position: center;
+        top: -75px;
+        left: 50%;
+        margin-left: -75px;
+        border-radius: 25px 0px 25px 0px;
+        box-shadow: .5px .5px 5px black;
+        z-index: 1;
+    }
+
+   .navbar {
+        visibility: hidden;
+       display: hidden;
+       opacity: 0;
+        height: 0px;
+       width: 0px;
+    }
+    
+    div {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+/* Navigation */
+    
+    nav {
+        width: 90%;
+        height: 25px;
+        margin-left: 10%;
+        padding: none;
+        position: absolute;
+        top: 0px;
+        right: 10%;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        text-shadow: .5px .5px 5px black;
+        color: white;
+        z-index: 1;
+        padding-left: none;
+        padding-bottom: none;
+        martin-top: none;
+    }
+    
+    nav li {
+        display: inline-block;
+        width: 20%;
+        height: 25px;
+        text-align: center;
+        background-color: rgba(100, 100, 100, 0.1);
+        margin-left: 10%;
+        padding-top: 10px;
+        horizontal-align: center;
+    }
+    
+    a:link, a:visited {
+        color: white;
+        line-height: 32px;
+        text-decoration: none;
+        text-align: center;
+    }
+    a:hover {
+        border-bottom: 5px white dotted;
+    }
+    
+
+    
+/* Content */
+    
+    .main {
+        height: 40%;
+        width: 100%;
+        background-image: url(../img/puppy.jpg);
+        background-position: center;
+        background-repeat: no-repeat cover;
+        position: relative;
+        margin-top: -150px;
+        z-index: 0;
+    }
+    
+    .main p {
+        margin: none;
+        padding-top: 100px;
+    }
+    
+    .down {
+        height: 60px;
+        width: 60px;
+        position: relative;
+        top: -15px;
+        left: 50%;
+        margin-left: -30px;
+    }
+    
+    article {
+        font-size: 2em;
+        text-align: center;
+        color: black;
+        font-family: 'Alex Brush', cursive;
+        margin-top: -40px;
+    }
+    
+    .description {
+        text-align: center justify;
+        width: 60%;
+        margin-left: 20%;
+        font-size: .5em;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+/* Footer */
+    footer {
+        width: 100%;
+        height: 25px;
+        padding-top: 5px;
+        background-color: black;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-size: 10px;
+        position: relative;
+        bottom: 0px;
+        z-index: 1;
+    }
+}
+@media all and (max-width: 540px) {
+
+    header {
+        width: 100%;
+        height: 175px;
+        background-color: black;
+        padding-top: 50px;
+        padding-bottom: 1px;
+        text-align: center;
+        z-index: 1;
+        line-height: .2px;
+    }
+    
+    .heading {
+        font-size: 2em;
+        text-shadow: .5px .5px 5px black;
+        font-family: 'Libre Baskerville', serif;
+    }
+    
+    .subtitle {
+        margin-top: -10px;
+        font-size: .5em;
+        text-shadow: .5px .5px 5px black;
+        font-family: 'Libre Baskerville', serif;
+    }
+
+
+}
