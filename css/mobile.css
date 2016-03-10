@@ -17,7 +17,6 @@
         text-align: center;
         z-index: 1;
         line-height: .2px;
-        margin-top: none;
     }
     
     .aboutportfolio {
@@ -54,10 +53,7 @@
 
    .navbar {
         visibility: hidden;
-       display: hidden;
-       opacity: 0;
         height: 0px;
-       width: 0px;
     }
     
     div {
@@ -79,9 +75,10 @@
         text-shadow: .5px .5px 5px black;
         color: white;
         z-index: 1;
-        padding-left: none;
-        padding-bottom: none;
-        martin-top: none;
+    }
+    
+    nav ul {
+        list-style: none;
     }
     
     nav li {
